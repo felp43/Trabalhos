@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conta - Recicloud</title>
+    <link rel="stylesheet" href="conta.css">
+</head>
+<body>
+    <header>
+        <a href="./home.html"><img src="./imagens/icon.png" alt="Logo Recicloud" class="logo"></a> 
+        <a href="./home.html"><h1>Recicloud</h1></a> 
+        <h2>> Conta</h2>
+    </header>
+
+    <main>
+        <div class="foto-perfil">
+            <img id="fotoUsuario" src="./home/imagens/foto-perfil.png" alt="Foto de perfil">
+            <input type="file" id="uploadFoto" accept="image/*">
+        </div>
+
+        <div class="formulario">
+            <div class="coluna-esquerda">
+                <input type="text" id="nome" placeholder="Nome">
+                <input type="email" id="email" placeholder="E-mail">
+                <input type="tel" id="telefone" placeholder="Telefone">
+                <input type="text" id="atuacao" placeholder="Sua atuação...">
+            </div>
+            <div class="coluna-direita">
+                <textarea id="descricao" placeholder="Descrição..."></textarea>
+            </div>
+        </div>
+
+        <div class="confirmacao">
+            <p>Deseja alterar suas informações?</p>
+            <button class="nao">Não</button>
+            <button class="sim">Sim</button>
+        </div>
+
+        <button class="voltar"><a href="./home.html">Voltar</a></button>
+        <button class="apagar">Apagar Conta</button>
+
+    </main>
+
+    <script src="js.js"></script>
+    <script src="escuro.js"></script>
+</body>
+</html>

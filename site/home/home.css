@@ -1,0 +1,219 @@
+/* Estilo do cabeçalho */
+.topo {
+    width: 100%;
+    height: 70px;
+    background-color: #a2f286;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; /* Adicionado padding para melhor espaçamento */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    font-family: sans-serif;
+}
+
+/* Logo à esquerda */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    height: 80px;
+}
+
+.logo span {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Menu à direita */
+.menu { /* Adicionado display flex para o contêiner do menu */
+    display: flex; /* Faz com que os itens dentro do menu fiquem lado a lado */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    gap: 20px; /* Adiciona um espaço entre os links (opcional, pode ajustar) */
+}
+
+.menu a {
+    /* Removido o margin-left que estava antes para controlar o espaçamento com gap */
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    display: flex; /* Mantém display flex para o ícone e o texto dentro de cada link */
+    align-items: center;
+    gap: 5px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.banner {
+    margin-top: 70px; /* Espaço igual à altura do .topo */
+    width: 100vw; /* 100% da largura da viewport */
+    height: 400px;
+    display: block;
+    position: relative; /* Adicionado para posicionar o texto absolutamente dentro dele */
+}
+
+body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.foot {
+    width: 100%;
+    height: 100px;
+    background-color: #a2f286;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; /* Espaçamento horizontal interno */
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.2); /* Sombra no topo da barra */
+    position: fixed;
+    bottom: 0; /* Agora fica no rodapé */
+    left: 0;
+    z-index: 1000;
+    font-family: sans-serif;
+}
+
+.texto {
+    position: absolute; 
+    bottom: 0; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    width: 100%; 
+    text-align: center; 
+    color: #333; 
+    background-color: rgba(255, 255, 255, 0.7); 
+    padding: 10px 0; 
+    box-sizing: border-box; 
+}
+
+.texto h3 {
+    margin: 0; 
+    font-size: 20px; 
+}
+/* Estilo do cabeçalho */
+.topo {
+    width: 100%;
+    height: 70px;
+    background-color: #a2f286;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden; /* <-- impede que conteúdo vaze horizontalmente */
+}
+
+/* Logo à esquerda */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    height: 50px; /* <-- antes era 80px, maior que o topo */
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.logo span {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Menu à direita */
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap; /* <-- quebra para evitar overflow em telas menores */
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    white-space: nowrap; /* impede quebra de linha interna */
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+/* Estilo escuro */
+.dark-mode {
+  background-color: white;
+  color: #eaf0e8;
+}
+
+/* Exemplo de elementos que você pode querer escurecer também */
+.dark-mode .sidebar {
+  background-color: #1e1e1e;
+}
+
+.dark-mode .main-content {
+  background-color: #1e1e1e;
+}
+
+.dark-mode h1, 
+.dark-mode h2, 
+.dark-mode li {
+  color: black;
+}
+.dark-mode body {
+  background-color: #1e1e1e;
+}
+.dark-mode .confirmacao {
+  background-color: #2a2a2a;
+  border-color: #555;
+}
+
+.dark-mode .sim {
+  background-color: #71aa73; /* Verde escuro mais suave */
+  color: white;
+}
+
+.dark-mode .nao {
+  background-color: #B22222;
+  color: white;
+}
+
+.dark-mode .voltar {
+  background-color: #2a2a2a;
+  color: white;
+}
+
+.dark-mode .apagar {
+  background-color: #8B0000;
+  color: white;
+}
+
+.dark-mode a {
+  color: #e1e6e1;
+}
+
+.dark-mode header {
+  background-color: rgb(61, 60, 60);
+}
+
+.dark-mode .foot{
+  background-color: rgb(70, 69, 69);
+}
+

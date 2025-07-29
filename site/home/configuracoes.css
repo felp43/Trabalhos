@@ -1,0 +1,210 @@
+body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background-color: #A2F286;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      padding: 20px;
+    }
+    header img {
+      height: 40px;
+      margin-right: 10px;
+    }
+    header h1 {
+      font-size: 24px;
+    }
+    .container {
+      display: flex;
+    }
+    .sidebar {
+      width: 220px;
+      background-color: #618f59;
+      padding: 20px;
+    }
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+    }
+    .sidebar li {
+      margin-bottom: 15px;
+    }
+    .sidebar a {
+      text-decoration: none;
+      color: black;
+    }
+    .main-content {
+      flex-grow: 1;
+      padding: 40px;
+    }
+    .main-content h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+    .notification-list {
+      list-style-type: disc;
+      padding-left: 40px;
+    }
+    .notification-list li {
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+    .footer-button {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+    }
+    .footer-button button {
+      background-color: white;
+      border: 1px solid #000;
+      padding: 5px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+/* Estilo escuro /
+.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+/ Exemplo de elementos que você pode querer escurecer também */
+.dark-mode .sidebar {
+  background-color: #1e1e1e;
+}
+
+.dark-mode .main-content {
+  background-color: #1e1e1e;
+}
+
+.dark-mode h1, 
+.dark-mode h2, 
+.dark-mode li { 
+  color: #070707;
+}
+.dark-mode body {
+  background-color: #121212;
+}
+.dark-mode .confirmacao {
+  background-color: #2a2a2a;
+  border-color: #555;
+}
+
+.dark-mode .sim {
+  background-color: #4CAF50; /* Verde escuro mais suave */
+  color: white;
+}
+
+.dark-mode .nao {
+  background-color: #B22222;
+  color: white;
+}
+
+.dark-mode .voltar {
+  background-color: #fcfcfc;
+  color: white;
+}
+
+.dark-mode .apagar {
+  background-color: #8B0000;
+  color: white;
+}
+
+.dark-mode a {
+  color: #90ee90;
+}
+   body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background-color: #C9F4C9;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      padding: 20px;
+    }
+    header img {
+      height: 40px;
+      margin-right: 10px;
+    }
+    header h1 {
+      font-size: 24px;
+    }
+    .container {
+      display: flex;
+    }
+    .sidebar {
+      width: 220px;
+      background-color: #99EF89;
+      padding: 20px;
+    }
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+    }
+    .sidebar li {
+      margin-bottom: 15px;
+    }
+    .sidebar a {
+      text-decoration: none;
+      color: black;
+    }
+    .main-content {
+      flex-grow: 1;
+      padding: 40px;
+    }
+    .main-content h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+    .notification-list {
+      list-style-type: disc;
+      padding-left: 40px;
+    }
+    .notification-list li {
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+    .footer-button {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+    }
+    .footer-button button {
+      background-color: white;
+      border: 1px solid #000;
+      padding: 5px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+a {
+    text-decoration: none;
+    color: black;
+}
+/* Estilo escuro */
+.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+/* Exemplo de elementos que você pode querer escurecer também */
+.dark-mode .sidebar {
+  background-color: #3B3B3B;
+}
+
+.dark-mode .main-content {
+  background-color: #121212;
+}
+
+.dark-mode h1, 
+.dark-mode h2, 
+.dark-mode li,
+.dark-mode a {
+  color: #ffffff;
+}
